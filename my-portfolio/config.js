@@ -86,9 +86,9 @@ const CONFIG = {
   colors: {
     primary: "#1a3f22",     // Main accent color (buttons, highlights)
     secondary: "#58761b",   // Secondary accent
-    background: "#d99201",  // Page background
+    background: "#905a01",  // Page background
     cardBg: "#656d4a",      // Card/section background
     text: "#e0e0e0",        // Main text color
-    heading: "#ffffff",     // Heading text color
+    heading: "#d99201",     // Heading text color
   },
 };
