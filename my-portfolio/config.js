@@ -90,5 +90,7 @@ const CONFIG = {
     cardBg: "#656d4a",      // Card/section background
     text: "#e0e0e0",        // Main text color
     heading: "#d99201",     // Heading text color
+    tagBg: "#3d2e04",        // tag background
+    tagText: "#d99201",      // tag text color
   },
 };
