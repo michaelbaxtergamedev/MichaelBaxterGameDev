@@ -84,13 +84,13 @@ const CONFIG = {
   // ===== THEME COLORS =====
   // Change these to customize your site's look
   colors: {
-    primary: "#1a3f22",     // Main accent color (buttons, highlights)
-    secondary: "#58761b",   // Secondary accent
-    background: "#484944",  // Page background
-    cardBg: "#656d4a",      // Card/section background
-    text: "#e0e0e0",        // Main text color
-    heading: "#d99201",     // Heading text color
-    tagBg: "#3d2e04",        // tag background
-    tagText: "#d99201",      // tag text color
+    primary: "#d4a017",     // Main accent color (buttons, highlights)
+    secondary: "#2e86ab",   // Secondary accent
+    background: "#0b1a0f",  // Page background
+    cardBg: "#132a1a",      // Card/section background
+    text: "#c8d5b9",        // Main text color
+    heading: "#f0e6c0",     // Heading text color
+    tagBg: "#1a3352",        // tag background
+    tagText: "#d4a017",      // tag text color
   },
 };
