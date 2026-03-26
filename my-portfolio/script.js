@@ -9,6 +9,8 @@ function applyColors() {
   document.documentElement.style.setProperty('--card-bg', c.cardBg);
   document.documentElement.style.setProperty('--text', c.text);
   document.documentElement.style.setProperty('--heading', c.heading);
+  document.documentElement.style.setProperty('--tag-bg', c.tagBg || c.primary);
+  document.documentElement.style.setProperty('--tag-text', c.tagText || c.primary);
 }
 
 // ================================
