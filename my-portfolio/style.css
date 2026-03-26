@@ -521,9 +521,10 @@ section {
   border-radius: 15px;
   font-size: 0.75rem;
   font-weight: 600;
-  background: rgba(108, 92, 231, 0.15);
-  color: var(--primary);
-  border: 1px solid rgba(108, 92, 231, 0.25);
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  border: 1px solid var(--tag-text);
+}
 }
 
 /* ========================
