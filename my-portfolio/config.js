@@ -84,8 +84,8 @@ const CONFIG = {
   // ===== THEME COLORS =====
   // Change these to customize your site's look
   colors: {
-    primary: "#fdcb6e",     // Main accent color (buttons, highlights)
-    secondary: "#008000",   // Secondary accent
+    primary: "#1a3f22",     // Main accent color (buttons, highlights)
+    secondary: "#58761b",   // Secondary accent
     background: "#0a0a0f",  // Page background
     cardBg: "656d4a",      // Card/section background
     text: "#e0e0e0",        // Main text color
