@@ -9,7 +9,7 @@ const CONFIG = {
 
   // ===== ABOUT ME =====
   aboutMe: `
-    Hi! I'm a passionate game developer with experience in Unity and Unreal Engine.
+    Hi! I'm a passionate game developer Specializing in Unreal Engine 5.
     I love creating fun, engaging experiences for players. I specialize in gameplay 
     programming, level design, and game mechanics.
   `,
@@ -17,11 +17,9 @@ const CONFIG = {
   // ===== SKILLS =====
   // Add or remove skills freely
   skills: [
-    { name: "Unity", level: 90 },
     { name: "Unreal Engine", level: 75 },
-    { name: "C#", level: 85 },
     { name: "C++", level: 70 },
-    { name: "Blender", level: 60 },
+    { name: "3DEs MAX", level: 60 },
     { name: "Pixel Art", level: 65 },
     { name: "Game Design", level: 80 },
     { name: "Level Design", level: 75 },
@@ -31,32 +29,23 @@ const CONFIG = {
   // Add as many projects as you want by copying the {} block
   projects: [
     {
-      title: "Space Explorer",
-      description: "A 3D space exploration game built in Unity with procedural generation.",
+      title: "Caves of The Dweller",
+      description: "A VR Dungeon Crawler with procedural Generation and Deck Building made in Unreal Engine",
       image: "assets/images/project1.jpg",
-      tags: ["Unity", "C#", "3D"],
-      liveLink: "https://yourgame.itch.io/space-explorer",
-      codeLink: "https://github.com/yourusername/space-explorer",
+      tags: ["UE5", "VR", "Procedural", "Blueprints"],
+      liveLink: "https://michaelbaxtergamedev.itch.io/caves-of-the-dweller",
+      codeLink: "", // github or link to open code project files
       videoLink: "", // YouTube/Vimeo embed link (leave empty if none)
     },
     {
-      title: "Dungeon Crawler",
-      description: "A roguelike dungeon crawler with pixel art aesthetics.",
+      title: "Niagara VFX Gallery",
+      description: "A collection of the VFX I have made using UE5 Niagara System.",
       image: "assets/images/project2.jpg",
-      tags: ["Godot", "GDScript", "2D", "Pixel Art"],
-      liveLink: "https://yourgame.itch.io/dungeon-crawler",
-      codeLink: "https://github.com/yourusername/dungeon-crawler",
-      videoLink: "https://www.youtube.com/embed/your-video-id",
-    },
-    {
-      title: "Puzzle Kingdom",
-      description: "A mobile puzzle game with 50+ handcrafted levels.",
-      image: "assets/images/project3.jpg",
-      tags: ["Unity", "C#", "Mobile", "Puzzle"],
+      tags: ["UE5", "VFX", "Niagara"],
       liveLink: "",
       codeLink: "",
       videoLink: "",
-    },
+    }
   ],
 
   // ===== EXPERIENCE / GAME JAMS =====
