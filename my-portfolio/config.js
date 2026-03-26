@@ -17,9 +17,9 @@ const CONFIG = {
   // ===== SKILLS =====
   // Add or remove skills freely
   skills: [
-    { name: "Unreal Engine", level: 75 },
-    { name: "C++", level: 70 },
-    { name: "3DEs MAX", level: 60 },
+    { name: "Unreal Engine", level: 80 },
+    { name: "C++", level: 40 },
+    { name: "3Ds MAX", level: 60 },
     { name: "Pixel Art", level: 65 },
     { name: "Game Design", level: 80 },
     { name: "Level Design", level: 75 },
@@ -51,34 +51,34 @@ const CONFIG = {
   // ===== EXPERIENCE / GAME JAMS =====
   experience: [
     {
-      role: "Game Developer",
-      company: "Indie Studio XYZ",
+      role: "Student",
+      company: "Canadore College",
       period: "2023 - Present",
-      description: "Developing gameplay systems and UI for a multiplayer action game.",
+      description: "Taking the 3 year Game Design & Development Advanced Diploma.",
     },
     {
-      role: "Ludum Dare 54 Participant",
-      company: "Game Jam",
-      period: "October 2023",
-      description: "Built a complete game in 48 hours. Ranked top 100 in Fun category.",
+      role: "Game Design & Development Tech",
+      company: "Canadore Colege - Game Design & Development",
+      period: "November 2025 - Present",
+      description: "Maintain the technology in the Game Design Classroom at Canadore, assisted students with their coursework.",
     },
     {
-      role: "Freelance Game Developer",
-      company: "Self-Employed",
-      period: "2021 - 2023",
-      description: "Created prototypes and small games for clients on various platforms.",
+      role: "Game Design Club VP",
+      company: "Canadore College",
+      period: "2025 - Present",
+      description: "Create a fun, educational environment for all students across the campus to learn and collaborate on making games from Board games - Video Games",
     },
   ],
 
   // ===== SOCIAL LINKS =====
   // Leave any link empty ("") to hide that icon
   socials: {
-    github: "https://github.com/yourusername",
-    itchio: "https://yourusername.itch.io",
-    linkedin: "https://linkedin.com/in/yourusername",
-    twitter: "https://twitter.com/yourusername",
-    youtube: "https://youtube.com/@yourusername",
-    email: "your.email@example.com",
+    github: "",
+    itchio: "https://michaelbaxtergamedev.itch.io",
+    linkedin: "www.linkedin.com/in/michael-baxter-game-dev",
+    twitter: "",
+    youtube: "https://www.youtube.com/@MichaelBaxter-GameDev",
+    email: "michaelbaxter.gamedev@gmail.com",
   },
 
   // ===== THEME COLORS =====
