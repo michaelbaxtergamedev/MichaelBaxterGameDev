@@ -4,7 +4,7 @@ const CONFIG = {
   name: "Michael Baxter",
   title: "Game Developer",
   tagline: "I create immersive gaming experiences.",
-  profileImage: "assets/images/ProfilePicture.PNG", // Put your photo in assets/images/
+  profileImage: "assets/images/ProfilePicture.png", // Put your photo in assets/images/
   resumeLink: "#", // Link to your resume (Google Drive, Dropbox, etc.)
 
   // ===== ABOUT ME =====
