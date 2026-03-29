@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Details</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar" class="scrolled">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo" id="nav-name"></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PROJECT HERO -->
+  <header id="project-hero">
+    <div class="project-hero-overlay"></div>
+    <img id="project-hero-img" src="" alt="" />
+    <div class="project-hero-content">
+      <a href="index.html#projects" class="back-link">
+        <i class="fas fa-arrow-left"></i> Back to Projects
+      </a>
+      <h1 id="project-title"></h1>
+      <p id="project-description"></p>
+      <div class="project-hero-tags" id="project-tags"></div>
+    </div>
+  </header>
+
+  <!-- PROJECT BODY -->
+  <main class="project-layout">
+
+    <!-- BLOG CONTENT -->
+    <article class="project-content" id="project-content">
+      <!-- Filled by JS -->
+    </article>
+
+    <!-- SIDEBAR -->
+    <aside class="project-sidebar" id="project-sidebar">
+      <!-- Filled by JS -->
+    </aside>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; <span id="footer-year"></span> <span id="footer-name"></span>. All rights reserved.</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
