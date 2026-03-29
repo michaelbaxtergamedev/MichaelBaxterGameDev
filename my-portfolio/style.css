@@ -454,6 +454,12 @@ section {
   transform: scale(1.1);
 }
 
+.project-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
 .project-overlay {
   position: absolute;
   top: 0;
@@ -464,13 +470,25 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
   opacity: 0;
   transition: opacity 0.3s;
+  pointer-events: none;
 }
 
 .project-card:hover .project-overlay {
   opacity: 1;
+}
+
+.project-overlay-text {
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .project-info {
