@@ -240,12 +240,12 @@ const CONFIG = {
 
   // ===== SOCIAL LINKS =====
   socials: {
-    github: "https://github.com/yourusername",
-    itchio: "https://yourusername.itch.io",
-    linkedin: "https://linkedin.com/in/yourusername",
-    twitter: "https://twitter.com/yourusername",
+    github: "",
+    itchio: "https://michaelbaxtergamedev.itch.io",
+    linkedin: "www.linkedin.com/in/michael-baxter-game-dev",
+    twitter: "",
     youtube: "https://youtube.com/@yourusername",
-    email: "your.email@example.com",
+    email: "michaelbaxter.gamedev@gmail.com",
   },
 
   // ===== THEME COLORS =====
