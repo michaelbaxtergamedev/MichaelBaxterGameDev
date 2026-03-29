@@ -1,25 +1,24 @@
 const CONFIG = {
 
   // ===== PERSONAL INFO =====
-  name: "Your Name",
+  name: "Michael Baxter",
   title: "Game Developer",
   tagline: "I create immersive gaming experiences.",
-  profileImage: "assets/images/profile.png",
+  profileImage: "assets/images/ProfilePicture.png",
   resumeLink: "#",
 
   // ===== ABOUT ME =====
   aboutMe: `
-    Hi! I'm a passionate game developer with experience in Unity and Unreal Engine.
+    Hi! I'm a passionate game developer specializing in Unreal Engine 5.
     I love creating fun, engaging experiences for players.
   `,
 
   // ===== SKILLS =====
   skills: [
-    { name: "Unity", level: 90 },
-    { name: "Unreal Engine", level: 75 },
-    { name: "C#", level: 85 },
+    { name: "Unreal Engine 5", level: 80 },
+    { name: "UE5 Niagara VFX", level: 75 },
     { name: "C++", level: 70 },
-    { name: "Blender", level: 60 },
+    { name: "3Ds MAX", level: 60 },
     { name: "Pixel Art", level: 65 },
     { name: "Game Design", level: 80 },
     { name: "Level Design", level: 75 },
@@ -29,18 +28,18 @@ const CONFIG = {
   projects: [
     {
       // --- Card Info (shows on main page) ---
-      title: "Space Explorer",
-      description: "A 3D space exploration game built in Unity with procedural generation.",
+      title: "Caves of The Dweller",
+      description: "A VR rouge-lite dungeon crawler with deck building and procedurally generated dungeons.",
       image: "assets/images/project1.jpg",
-      tags: ["Unity", "C#", "3D"],
+      tags: ["UE5", "Blueprints", "3D", "VR", "Procedural Generation"],
 
       // --- Sidebar Links (shows on project page) ---
       // Leave any link empty ("") to hide it
       sidebar: {
-        playLink: "https://yourgame.itch.io/space-explorer",
+        playLink: "https://michaelbaxtergamedev.itch.io/caves-of-the-dweller",
         playLabel: "Play on Itch.io",           // Custom button text
-        codeLink: "https://github.com/yourusername/space-explorer",
-        codeLabel: "View Source Code",
+        codeLink: "",
+        codeLabel: "",
         extraLinks: [
           // Add as many extra links as you want
           { label: "Steam Page", url: "https://store.steampowered.com", icon: "fab fa-steam" },
@@ -48,11 +47,11 @@ const CONFIG = {
         ],
         // Quick info displayed in sidebar
         info: [
-          { label: "Engine", value: "Unity 2022.3" },
-          { label: "Platform", value: "PC, WebGL" },
+          { label: "Engine", value: "Unreal Engine 5.6" },
+          { label: "Platform", value: "PC-VR, Meta Quest 3" },
           { label: "Team Size", value: "Solo" },
-          { label: "Duration", value: "3 months" },
-          { label: "Status", value: "Released" },
+          { label: "Duration", value: "5 months" },
+          { label: "Status", value: "Alpha" },
         ],
       },
 
@@ -62,7 +61,7 @@ const CONFIG = {
       content: [
         {
           type: "heading",
-          text: "About This Project",
+          text: "About Caves of The Dweller",
         },
         {
           type: "text",
