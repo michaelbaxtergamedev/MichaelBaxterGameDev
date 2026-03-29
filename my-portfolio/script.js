@@ -162,19 +162,21 @@ function populateProjects() {
     const tagsHTML = project.tags.map(t => `<span>${t}</span>`).join('');
 
     card.innerHTML = `
-      <div class="project-image-wrapper">
-        <img src="${project.image}" alt="${project.title}" loading="lazy"
-             onerror="this.style.display='none'" />
-        <div class="project-overlay">
-          ${overlayLinks}
-        </div>
+  <a href="project.html?id=${index}" class="project-card-link">
+    <div class="project-image-wrapper">
+      <img src="${project.image}" alt="${project.title}" loading="lazy"
+           onerror="this.style.display='none'" />
+      <div class="project-overlay">
+        <span class="project-overlay-text">View Project <i class="fas fa-arrow-right"></i></span>
       </div>
-      <div class="project-info">
-        <h3>${project.title}</h3>
-        <p>${project.description}</p>
-        <div class="project-tags">${tagsHTML}</div>
-      </div>
-    `;
+    </div>
+    <div class="project-info">
+      <h3>${project.title}</h3>
+      <p>${project.description}</p>
+      <div class="project-tags">${tagsHTML}</div>
+    </div>
+  </a>
+`;
     grid.appendChild(card);
 
     // Stagger animation
