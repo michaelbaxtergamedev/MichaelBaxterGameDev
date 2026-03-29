@@ -473,28 +473,6 @@ section {
   opacity: 1;
 }
 
-.project-overlay a,
-.project-overlay button {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--primary);
-  color: #fff;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.3s, background 0.3s;
-}
-
-.project-overlay a:hover,
-.project-overlay button:hover {
-  background: var(--secondary);
-  transform: scale(1.15);
-}
-
 .project-info {
   padding: 20px;
 }
