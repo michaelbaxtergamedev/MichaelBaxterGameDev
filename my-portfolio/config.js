@@ -5,7 +5,7 @@ const CONFIG = {
   title: "Game Developer",
   tagline: "I create immersive gaming experiences.",
   profileImage: "assets/images/ProfilePicture.png",
-  resumeLink: "#",
+  resumeLink: "https://drive.google.com/file/d/1N0mOTnrixE1ps0rIAUcEnYFgPtvD-nGm/view?usp=sharing",
 
   // ===== ABOUT ME =====
   aboutMe: `
@@ -122,10 +122,10 @@ const CONFIG = {
     },
 
     {
-      title: "Dungeon Crawler",
-      description: "A roguelike dungeon crawler with pixel art aesthetics.",
+      title: "Puzzle Planet",
+      description: "A cozy puzzle game where you shift around the pieces to form the complete image.",
       image: "assets/images/project2.jpg",
-      tags: ["Godot", "GDScript", "2D", "Pixel Art"],
+      tags: ["UE5", "Blueprints", "2D", "Puzzle", "Cozy"],
 
       sidebar: {
         playLink: "https://yourgame.itch.io/dungeon-crawler",
@@ -244,7 +244,7 @@ const CONFIG = {
     itchio: "https://michaelbaxtergamedev.itch.io",
     linkedin: "www.linkedin.com/in/michael-baxter-game-dev",
     twitter: "",
-    youtube: "https://youtube.com/@yourusername",
+    youtube: "https://www.youtube.com/@MichaelBaxter-GameDev",
     email: "michaelbaxter.gamedev@gmail.com",
   },
 
