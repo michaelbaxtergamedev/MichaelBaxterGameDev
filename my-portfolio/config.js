@@ -260,3 +260,4 @@ const CONFIG = {
     tagText: "#d4a017",
   },
 };
+
